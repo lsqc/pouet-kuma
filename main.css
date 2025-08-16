@@ -259,8 +259,8 @@ span[data-v-7d4a7f28] {
 }
 .overall-status[data-v-b8247e57]:has(.ok),
 .overall-status[data-v-84507135]:has(.ok) {
-    color:white;
-    background-color: #1B366D;
+    color: white;
+    background-color: #029618;
 }
 .overall-status[data-v-b8247e57]:has(.warning),
 .overall-status[data-v-84507135]:has(.warning) {
@@ -429,7 +429,7 @@ monitor-list .item > .row > div {
 .info {
     display: flex;
     align-items: center;
-    margin-bottom: var(--spacing-8);
+ /*   margin-bottom: var(--spacing-8); */
 }
 
 /* Monitor name */
@@ -581,3 +581,4 @@ footer .alert-heading.p-2:has(*) {
 .dark .monitor-list .item:nth-child(odd):hover {
     background: #446688;
 }
+
